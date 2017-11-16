@@ -3,12 +3,14 @@
 
 //--------------------------------------------------------------
 void ofApp::setup(){
-    ofSetFrameRate(30);
+   // ofSetFrameRate(30);
     ofBackground(0);
     for(int i=0; i<num; i++){
         fibo.push_back(Fibonaccii(i)) ;
     }
-
+//    ofSetVerticalSync(true);
+//    ofSetFullscreen(true);
+    ofHideCursor();
 }
 
 //--------------------------------------------------------------
