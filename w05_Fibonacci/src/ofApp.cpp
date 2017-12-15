@@ -9,7 +9,7 @@ void ofApp::setup(){
         fibo.push_back(Fibonaccii(i)) ;
     }
 //    ofSetVerticalSync(true);
-//    ofSetFullscreen(true);
+    ofSetFullscreen(true);
     ofHideCursor();
 }
 
